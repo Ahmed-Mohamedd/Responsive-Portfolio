@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+ *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.back
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.back svg
+{
+    margin-right: 5px;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* *************** style for left hand side ************** */
+
+.container .left-side
+{
+    position: relative;
+    min-height: 1000px;
+    background-color: #003147;
+    padding: 40px;
+}
+.container .left-side .pf-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.container .left-side .pf-text .img-bx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.container .left-side .pf-text .img-bx img
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .left-side .pf-text h2
+{
+    color: #fff;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 24px;
+    
+}
+.container .left-side .pf-text h2 span
+{
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .left-side .contactinfo
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.container .left-side .contactinfo .txt
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container .left-side .contactinfo .cnt ul
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container .left-side .contactinfo .cnt ul li 
+{
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.container .left-side .contactinfo .cnt ul li .icon
+{
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+    margin-right: 10px;
+}
+.container .left-side .contactinfo .cnt ul li .text
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .left-side .education
+{
+    margin-top: 30px;
+}
+.container .left-side .education .txt
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container .left-side .education li
+{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.container .left-side .education li h5
+{
+    font-size: 16px;
+    color: #03a9f4;
+    font-weight: 500;
+}
+.container .left-side .education li h4:nth-child(2)
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.container .left-side .education li h4
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+}
+.container .left-side .language 
+{
+    margin-top: 60px;
+}
+.container .left-side .language .txt
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container .left-side .language ul li
+{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.container .left-side .language ul li .text
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+.container .left-side .language ul li .percent
+{
+    position: relative;
+    height: 6px;
+    width: 100%;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.container .left-side .language ul li .percent div 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+
+
+/* ****************** style for right hand side ******************* */
+
+.container .right-side
+{
+    position: relative;
+    min-height: 1000px;
+    background-color: #fff;
+    padding: 40px;
+    
+}
+.container .right-side .about 
+{
+    margin-bottom: 40px;
+}
+.container .right-side .about .title2
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #003147;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom:  20px;
+}
+.container .right-side .about p
+{
+    color: #333;
+    font-weight: 300;
+}
+.container .right-side .experience
+{
+    margin-bottom: 20px;
+}
+.container .right-side .experience h2
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom:  40px;
+}
+.container .right-side .experience .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.container .right-side .experience .box .year-company
+{
+    min-width: 150px;
+}
+.container .right-side .experience .box .year-company h5
+{
+    font-size: 14px;
+    color: #848c90;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.container .right-side .experience .box .text h4
+{
+    font-size: 18px;
+    color: #2a7da2;
+    text-transform: uppercase;
+}
+.container .right-side .experience .box .text p
+{
+    color: #333;
+    font-weight: 300;
+}
+.container .right-side .skills
+{
+    margin: 30px 0;
+}
+.container .right-side .skills h2
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom:  30px;
+}
+.container .right-side .skills .box
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.container .right-side .skills .box h4
+{
+    font-size: 16px;
+    color: #848c90;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 200px;
+}
+.container .right-side .skills .box .percent
+{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.container .right-side .skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    background-color: #03a9f4;
+}
+.container .right-side .interest
+{
+    margin: 35px 0;
+}
+.container .right-side .interest h2
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom:  30px;
+}
+.container .right-side .interest ul 
+{
+    display: flex;
+    flex-direction: row;
+}
+.container .right-side .interest ul li
+{
+    list-style: none;
+    width: 200px;
+    margin-left: 40px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .right-side .interest ul li svg 
+{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+/* ********************** media query ********************* */
+@media   (max-width:720px)
+{
+    .container .right-side .experience .box {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+        box-shadow: 35px 35px 35px rgba(0, 0, 0, 0.2);
+    }
+    .container .right-side .experience .box .year-company{
+        margin-bottom: 10px;
+    }
+    .container .right-side .skills h2 {
+        font-size: 22px;
+    }
+    .container .right-side .interest ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
